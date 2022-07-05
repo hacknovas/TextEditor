@@ -3,9 +3,9 @@ import React from 'react';
 export default function Footer() {
     return (
         <>
-            <div className="fixed-bottom " style={{ color: "white", backgroundColor: "black",textAlign:"center" }}>
-                <p> Doni_Prathamesh &copy; Copyright Preversed</p>
-                <p><a href="mailto:hege@example.com">creatives.doni@gmail.com</a></p>
+            <div className="Don fixed-bottom " >
+                <h4><p className='badge text-secondary'> Doni_Prathamesh &copy; Copyright Preversed</p></h4>
+                <span className='badge '><a href="mailto:hege@example.com" style={{ textDecoration: "none",color:'grey' }}>creatives.doni@gmail.com</a></span>
             </div>
         </>
     );
